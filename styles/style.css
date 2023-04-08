@@ -1,0 +1,11 @@
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Raleway', sans-serif; */
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-weight: 400;
+}
