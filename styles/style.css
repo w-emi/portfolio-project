@@ -9,12 +9,15 @@ h1 {
   font-size: 90px;
 }
 h2 {
-  font-size: 35px;
+  font-size: 60px;
 }
 h2 i {
   font-size: 15px;
 }
-p {
+.hero h2 {
+  font-size: 35px;
+}
+.hero p {
   font-family: "Libre Baskerville", serif;
   font-style: italic;
   font-weight: normal;
@@ -40,4 +43,44 @@ p {
   color: aliceblue;
   opacity: 0.7;
   padding: 25px 35px;
+}
+
+.project-description {
+  padding: 20px 40px;
+  line-height: 30px;
+}
+.project-link {
+  border: 1px solid black;
+  color: black;
+  padding: 15px 25px;
+}
+.project-link:hover {
+  border: 1px solid black;
+  color: black;
+  opacity: 0.7;
+  padding: 25px 35px;
+}
+.container .heading {
+  font-size: 20px;
+  background: black;
+  color: aliceblue;
+}
+@media (max-width: 960px) {
+  h2 {
+    font-size: 40px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero h2 {
+    font-size: 25px;
+  }
+  .hero h1 {
+    font-size: 35px;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+    margin: auto 0;
+  }
 }
