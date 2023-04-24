@@ -58,6 +58,26 @@ footer .social-links a {
   font-style: italic;
   font-weight: normal;
 }
+.container-bg {
+  padding: 80px 30px;
+  background: black;
+  color: aliceblue;
+}
+.content-container h1 {
+  text-align: center;
+  font-family: var(--head-font);
+}
+.content-container h2 {
+  text-align: center;
+  font-size: 16px;
+  font-family: var(--default-font);
+}
+.project-content h3 {
+  text-align: center;
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+
 .btn-about {
   background: black;
   color: aliceblue;
@@ -97,6 +117,17 @@ footer .social-links a {
 .wemi-img {
   border-radius: 10px;
   width: 480px;
+}
+.project-img {
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+}
+.project-links {
+  transition: all 150ms ease;
+}
+.project-links:hover {
+  opacity: 0.3;
 }
 @media (max-width: 960px) {
   h2 {
