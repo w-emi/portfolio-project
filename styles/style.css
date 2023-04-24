@@ -52,7 +52,7 @@ footer .social-links a {
 .about-section h1 {
   font-size: 50px;
 }
-.about-section h2 {
+.about-section .project-description h2 {
   font-size: 18px;
   font-family: var(--default-font);
   font-style: italic;
