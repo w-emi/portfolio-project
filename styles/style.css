@@ -161,4 +161,10 @@ footer {
     padding: 0;
     margin: auto 0;
   }
+
+  .socials-section h1,
+  .reach-out {
+    font-size: 40px;
+    text-align: left;
+  }
 }
