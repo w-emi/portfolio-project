@@ -1,8 +1,12 @@
-/* font-family: 'Libre Baskerville', serif;
-font-family: 'Raleway', sans-serif; */
+:root {
+  --default-font: "Libre Baskerville", serif;
+  --head-font: "Raleway", sans-serif;
+  --main-color: #ffffee;
+}
+
 h1,
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--head-font);
   font-weight: bold;
 }
 h1 {
@@ -17,14 +21,14 @@ h2 i {
 footer {
   text-align: center;
   background: black;
-  color: #ffffee;
+  color: var(--main-color);
   padding: 35px;
 }
 .hero h2 {
   font-size: 35px;
 }
 .hero p {
-  font-family: "Libre Baskerville", serif;
+  font-family: var(--default-font);
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
@@ -35,12 +39,24 @@ footer {
   color: black;
 }
 footer .social-links a {
-  color: #ffffee;
+  color: var(--main-color);
 }
 .hero {
-  background: #ffffee;
+  background: var(--main-color);
   text-align: center;
   padding: 180px 30px;
+}
+.about-section {
+  margin-top: 50px;
+}
+.about-section h1 {
+  font-size: 50px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+  font-style: italic;
+  font-weight: normal;
 }
 .btn-about {
   background: black;
@@ -77,6 +93,10 @@ footer .social-links a {
 .logo-img {
   border-radius: 50%;
   width: 30px;
+}
+.wemi-img {
+  border-radius: 10px;
+  width: 480px;
 }
 @media (max-width: 960px) {
   h2 {
