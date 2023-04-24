@@ -38,16 +38,15 @@ footer {
   font-size: 25px;
   color: black;
 }
-footer .social-links a {
-  color: var(--main-color);
+.socials-section .social-links a {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 20px;
 }
 .hero {
   background: var(--main-color);
   text-align: center;
   padding: 180px 30px;
-}
-.about-section {
-  margin-top: 50px;
 }
 .about-section h1 {
   font-size: 50px;
@@ -59,6 +58,11 @@ footer .social-links a {
   font-weight: normal;
 }
 .container-bg {
+  padding: 162px 30px;
+  background: black;
+  color: aliceblue;
+}
+.about-bg {
   padding: 80px 30px;
   background: black;
   color: aliceblue;
@@ -88,6 +92,16 @@ footer .social-links a {
   color: aliceblue;
   opacity: 0.7;
   padding: 25px 35px;
+}
+.btn-projects {
+  background: aliceblue;
+  color: black;
+  padding: 15px 25px;
+}
+.btn-projects:hover {
+  background: aliceblue;
+  color: black;
+  opacity: 0.7;
 }
 
 .project-description {
