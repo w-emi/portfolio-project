@@ -3,7 +3,7 @@
   --head-font: "Raleway", sans-serif;
   --main-color: #ffffee;
 }
-
+/* Main content styles */
 h1,
 h2,
 h4 {
@@ -19,7 +19,11 @@ h2 {
 h2 i {
   font-size: 15px;
 }
-
+.hero {
+  background: var(--main-color);
+  text-align: center;
+  padding: 180px 30px;
+}
 .hero h2 {
   font-size: 35px;
 }
@@ -34,25 +38,6 @@ h2 i {
   font-size: 25px;
   color: black;
 }
-.socials-section .social-links a {
-  text-decoration: none;
-  color: blueviolet;
-  font-size: 20px;
-}
-.hero {
-  background: var(--main-color);
-  text-align: center;
-  padding: 180px 30px;
-}
-.about-section h1 {
-  font-size: 50px;
-}
-.about-section .project-description h2 {
-  font-size: 18px;
-  font-family: var(--default-font);
-  font-style: italic;
-  font-weight: normal;
-}
 .container-bg {
   padding: 162px 30px;
   background: black;
@@ -63,6 +48,15 @@ h2 i {
   background: black;
   color: aliceblue;
 }
+.about-section h1 {
+  font-size: 50px;
+}
+.about-section .project-description h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+  font-style: italic;
+  font-weight: normal;
+}
 .content-container h1 {
   text-align: center;
   font-family: var(--head-font);
@@ -72,12 +66,40 @@ h2 i {
   font-size: 16px;
   font-family: var(--default-font);
 }
+.project-description {
+  padding: 20px 40px;
+  line-height: 30px;
+}
 .project-content h3 {
   text-align: center;
   font-size: 18px;
   font-family: var(--default-font);
 }
+.socials-section .social-links a {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 20px;
+}
 
+.projects-home .heading {
+  font-size: 25px;
+  font-style: italic;
+}
+/* Image styles */
+.logo-img {
+  border-radius: 50%;
+  width: 30px;
+}
+.wemi-img {
+  border-radius: 10px;
+  width: 480px;
+}
+.project-img {
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+}
+/* Link styles */
 .btn-about {
   background: black;
   color: aliceblue;
@@ -99,11 +121,6 @@ h2 i {
   color: black;
   opacity: 0.7;
 }
-
-.project-description {
-  padding: 20px 40px;
-  line-height: 30px;
-}
 .project-link {
   background: var(--main-color);
   border: 1px solid black;
@@ -117,29 +134,14 @@ h2 i {
   opacity: 0.7;
   padding: 25px 35px;
 }
-.projects-home .heading {
-  font-size: 25px;
-  font-style: italic;
-}
-.logo-img {
-  border-radius: 50%;
-  width: 30px;
-}
-.wemi-img {
-  border-radius: 10px;
-  width: 480px;
-}
-.project-img {
-  height: 350px;
-  width: 500px;
-  border-radius: 10px;
-}
 .project-links {
   transition: all 150ms ease;
 }
 .project-links:hover {
   opacity: 0.3;
 }
+
+/* Footer styles */
 footer {
   text-align: center;
   background: black;
@@ -147,7 +149,6 @@ footer {
   margin: 60px 0;
   padding: 35px;
 }
-
 footer h4 {
   font-size: 48px;
 }
@@ -180,6 +181,7 @@ footer .social-links a:hover {
   opacity: 0.7;
   font-size: 27px;
 }
+/* Media queries */
 @media (max-width: 960px) {
   h2 {
     font-size: 40px;
