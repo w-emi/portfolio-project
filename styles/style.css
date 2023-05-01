@@ -39,7 +39,7 @@ h2 i {
   color: black;
 }
 .container-bg {
-  padding: 162px 30px;
+  padding: 160px 30px;
   background: black;
   color: aliceblue;
 }
@@ -140,7 +140,12 @@ h2 i {
 .project-links:hover {
   opacity: 0.3;
 }
-
+.skills-container .skill-img {
+  padding: 8px;
+  background: #f9f7fe;
+  border-radius: 50%;
+  width: 70px;
+}
 /* Footer styles */
 footer {
   text-align: center;
